@@ -1,0 +1,76 @@
+body{
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    margin-bottom: 50px;
+}
+nav{
+    background: linear-gradient(#1d093f ,#b156c3);
+}
+.title{
+    color: white;
+    background-color: #1d093f;
+    margin: 0 50px;
+}
+.card-body img{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+.card-body img:hover{
+    transform: scale(1.7);
+
+}
+.nav-item a{
+    color: white;
+}
+.title{
+    margin: 100px;
+}
+#home{
+    text-align: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-atmosphere-fashion-black-background-mens-material-image_4798.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: beige;
+}
+.card-body{
+    text-align: center; 
+    background-color: beige;
+      
+}
+button{
+    background-color: rgb(128, 0, 85);}
+footer{
+    background: linear-gradient(#1d093f ,#537895);
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    color: white;
+
+}
+
+@media screen and (min-width: 768px) {
+    #products{
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-rows: 400px 400px 400px 400px;
+        gap: 40px;
+        justify-content: center;
+        height: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #products{
+        display: grid;
+        grid-template-columns: 300px ;
+        grid-template-rows: 400px ;
+        gap: 10px;
+        justify-content: center;  
+    }
+    
+    
+}
